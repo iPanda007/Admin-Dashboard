@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #0d0d0d90 ;
+
+}
+.light-body{
+    background-color: #ffffff;
+ transition: 1s;
+}
+.light-body *{
+    font-family: 'Roboto', sans-serif;
+    color: #434343;
+
+}
+/*.light-body span,.light-body p,.light-body h4{*/
+/*    color: #0d0d0d;*/
+/*    transition: 1s;*/
+
+/*}*/
+.light-body .sidebar{
+    background-color: #eaeaea;
+    transition: 0.5s;
+}
+.light-body .content{
+    background-color:#eaeaea ;
+    box-shadow: 0 0 10px #cbb1d8;
+    transition: 0.5s;
+}
+.light-body .card-item{
+    background-color: #fafafa;
+    box-shadow: 0 0 5px #cbd1d880;
+
+}
+.light-body .card-item:hover{
+    background-color: #b7b7b7;
+    box-shadow: 0 0 7px #cbb1d880;
+}
+.light-body .chart-head{
+    background-color: #fafafa;
+    box-shadow: 0 0 5px #cbd1d880;
+    transition: 0.5s;
+}
+.light-body .bar-item{
+    background-color: #e2e2e2;
+}
+.light-body .nav-brand{
+    background-color: #eaeaea;
+}
+.light-body .menu-item:hover{
+    background: #c7c7c7;
+    border-radius:0.25rem ;
+}
+.light-body .menu-item-link.active{
+    background-color: #b7b7b7;
+    border-radius: 0.25rem;
+
+}
+.light-body .sub-list tr:hover{
+    background-color: #b7b7b7;
+}
+.light-body .content::-webkit-scrollbar {
+    width: 7px;
+    height: 200px;
+}
+
+
+.light-body .content::-webkit-scrollbar-thumb {
+    background-color: #89818d;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 2008;
+}
